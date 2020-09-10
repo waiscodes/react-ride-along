@@ -10,3 +10,5 @@ function Hello() {
     </div>
   );
 }
+export default Hello;
+//This needs to be exported first. Whoops.
