@@ -13,3 +13,4 @@ const HelloStudent = (props) => {
 };
 
 export default HelloStudent;
+//If you have a function that you use all over the place, create a new folder for utilities and immport export it so you can use it.
