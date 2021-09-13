@@ -1,11 +1,20 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-const CardList = ({children}) => {
-    return (
-        <div>
-            {children}
-        </div>
-    )
+class CardList extends Component {
+    constructor() {
+        super();
+        this.state = {
+
+        }
+    }
+
+    render() {
+        return (
+            <div>
+                {this.props.children}
+            </div>
+        )
+    }
 }
 
-export default CardList
+export default CardList;
