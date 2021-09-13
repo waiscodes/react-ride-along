@@ -17,8 +17,17 @@ class App extends Component {
   }
 
   render() {
+
+    const gridStyle = {
+      width: "85vw",
+      margin: "0 auto",
+      display: "grid",
+      gridTemplateColumns: "1fr 1fr 1fr 1fr",
+      gridGap: "20px"
+    }
+
     return (
-      <div className="App">
+      <div style={{...gridStyle}}>
         {
           this.state.monsters.map((monster) => {
             return (
