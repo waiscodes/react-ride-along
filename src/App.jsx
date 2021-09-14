@@ -24,6 +24,9 @@ class App extends Component {
             return (
               <CardList key={monster.id} >
                 <h1>{monster?.name}</h1>
+                {
+                  true ? "hello" : "world"
+                }
               </CardList>
             )
           })
